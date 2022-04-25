@@ -409,6 +409,44 @@ main{
         color: $white;
     }
 }
+footer{
+    background: #2B2F35;
+    padding: 40px 0px;
+
+    h5{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 42px;
+        color: #FFFFFF;
+        position: relative;
+        padding-bottom: 10px;
+
+        &:after{
+            content: "";
+            height: 4px;
+            width: 60px;
+            background: #fff;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+
+        }
+    }
+
+    ul{
+        .link-secondary{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+}
+
+
 
 
 @media (max-width: 575.98px) { }
