@@ -259,9 +259,25 @@ body {
   background: #8DD2F0; }
 .game-table .game-details .bet-blue-l {
   background: #E9F6FC; }
+.game-table .match-details {
+  border-top: 1px solid #53555B;
+  border-right: 1px solid #53555B; }
+.game-table .betting-info {
+  border-top: 1px solid #53555B;
+  border-right: 1px solid #53555B; }
+.game-table .betting-info-outter .col:last-child .betting-info {
+  border-right: 0px; }
 
 .search-input {
   max-width: 280px; }
+
+.match-time {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #2B2F35; }
 
 .btn-red {
   background: #C42027;
@@ -361,12 +377,14 @@ footer {
         display: block;
         margin: 0px auto 8px !important; }
 
-  .betting-info {
-    height: auto !important;
-    padding: 10px 0px; }
-
   .game-table .game-details .thead {
     font-size: 15px;
-    line-height: 38px; } }
+    line-height: 38px; }
+  .game-table .match-details {
+    border-right: 0px; }
+  .game-table .betting-info {
+    height: auto !important;
+    padding: 10px 0px;
+    border-right: 0px solid #53555B; } }
 
 /*# sourceMappingURL=style.css.map */
